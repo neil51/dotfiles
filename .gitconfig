@@ -1,0 +1,10 @@
+[user]
+	email = bestinbthomas@gmail.com
+	name = Bestin
+	signingkey = 0CE9F9DC3F6126EC
+[core]
+	editor = vim
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2
