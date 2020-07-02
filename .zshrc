@@ -111,8 +111,6 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 source ~/.aliases
-source /home/bestin/dev/gmetri/dec/shell/mybash_rc.sh #v1.1
-source /home/bestin/dev/gmetri/dec/shell/mybash_vars.sh #v1.1
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/bestin/.sdkman"
