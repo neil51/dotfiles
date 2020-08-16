@@ -219,9 +219,6 @@ exec_always feh --bg-scale ~/Pictures/wallpapers/wall.jpg
 # top bar
 exec_always sh ~/.config/polybar/launch.sh
 
-# brave
-bindsym $mod+F5 exec brave
-
 # transpirancy 
 exec_always picom &
 
@@ -234,6 +231,8 @@ bindsym XF86AudioPrev exec playerctl previous
 # Screenshot
 bindsym Print exec sh ~/.config/i3/screenshot.sh 
 
+# Firefox
+bindsym $mod+F5 exec firefox
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
@@ -245,6 +244,3 @@ bindsym $mod+Shift+x exec systemctl suspend
 
 exec_always i3-battery-popup -L 15 -s ~/.sounds/i3-battery-popup.wav -v 100 -N
 bindsym $mod+Shift+Control+e exec i3-msg exit
-
-exec_always onedrive --synchronize
-

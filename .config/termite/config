@@ -43,37 +43,31 @@ cursor_shape = block
 # ====================================
 [colors]
 
-background = rgba(48,52,48,0.80)
-# Black
-color0=   #303430
-color8=   #cdb5cd
+foreground=#ababab
+background = rgba(0,0,0,0.60)
 
-# Red
-color1=   #bf7979
-color9=   #f4a45f
+cursor=#ababab
 
-# Green
-color2=   #97b26b
-color10=  #c5f779
+color0=#000000
+color1=#e92f2f
+color2=#0ed839
+color3=#dddd13
+color4=#3b48e3
+color5=#f996e2
+color6=#23edda
+color7=#ababab
+color8=#343434
+color9=#e92f2f
+color10=#0ed839
+color11=#dddd13
+color12=#3b48e3
+color13=#f996e2
+color14=#23edda
+color15=#f9f9f9
 
-# Yellow
-color3=   #cdcdc1
-color11=  #ffffed
-
-# Blue
-color4=   #86a2be
-color12=  #98afd9
-
-# Magenta
-color5=   #d9b798
-color13=  #d7d998
-
-# Cyan
-color6=   #a1b5cd
-color14=  #a1b5cd
-
-# White
-color7=   #ffffff
-color15=  #dedede
-
-# vim: et sw=2 syn=xdefaults
+color16=#e09448
+color17=#69542d
+color18=#040404
+color19=#102015
+color20=#555555
+color21=#e0e0e0
