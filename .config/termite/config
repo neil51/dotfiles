@@ -20,7 +20,7 @@ scrollback_lines = -1
 hyperlinks = true 
 
 # $BROWSER is used by default if set, with xdg-open as a fallback
-browser = /usr/bin/firefox
+# browser = /usr/bin/firefox
 
 # "system", "on" or "off"
 cursor_blink = system
@@ -44,7 +44,7 @@ cursor_shape = block
 [colors]
 
 foreground=#ababab
-background = rgba(0,0,0,0.60)
+background = rgba(0,0,0,0.70)
 
 cursor=#ababab
 

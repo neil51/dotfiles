@@ -76,8 +76,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git extract web-search yum git-extras docker vagrant zsh-autosuggestions zsh-syntax-highlighting alias-tips)
 
+plugins=(git git-extras docker vagrant zsh-autosuggestions zsh-syntax-highlighting alias-tips)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -118,4 +118,4 @@ export SDKMAN_DIR="/home/bestin/.sdkman"
 bindkey '^xe' edit-command-line
 bindkey '^x^e' edit-command-line
 export GPG_TTY=$(tty)
-neofetch
+# neofetch
